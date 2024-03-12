@@ -3,30 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Estilos internos: -->
+    <style>
+        h2{
+            color: rgb(53, 53, 53);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #EBD9B4;
+        }
+    </style>
+    <!-- Estilos externos -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/icono.png">
+    <title>CSS</title>
 </head>
-<body>
-    <h1>Bienvenidos a la programación</h1>
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#curso">Curso</a></li>
-            <li><a href="#recursos">Recurso</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="https://www.google.com" target="_blank">Ir a Google</a></li>
-        </ul>
-    </nav>
+<body class="fondo">
+    <header>
+        <h1>Bienvenidos a la programación</h1>
+        <nav>
+            <ul>
+                <!-- estilos en linea -->
+                <li><a href="#inicio" style="color: green;">Inicio</a></li>
+                <li><a href="#curso" style="color: orange;">Curso</a></li>
+                <li><a href="#recursos" style="font-family: monospace; font-size: 1.1em;" >Recursos</a></li>
+                <li><a href="./contacto.html" style="font-family: 'Courier New', Courier, monospace;">Contacto</a></li>
+                <li><a href="https://www.google.com" target="_blank" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Ir a Google</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section id="inicio">
             <article>
                 <h2>¿Qué es la Programación?</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis distinctio nobis ad nostrum ab aut inventore necessitatibus natus quo voluptas.</p>
+                <p id="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis distinctio nobis ad nostrum ab aut inventore necessitatibus natus quo voluptas.</p>
             </article>
         </section>
         <section id="curso">
             <article>
                 <h2>Nuestro curso para principiantes</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, molestiae facere at labore tempore quia.</p>
+                <p id="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, molestiae facere at labore tempore quia.</p>
                 <img src="./img/imagen.jpeg" width="400" height="260" alt="imagen 1">
                 <img src="./img/imagen1.webp" width="400" height="260" alt="imagen 2">
                 <img src="./img/imagen2.webp" width="400" height="260" alt="imagen 3">

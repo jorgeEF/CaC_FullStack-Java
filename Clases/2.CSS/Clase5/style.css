@@ -1,0 +1,37 @@
+:root {
+    --title-color: #638889;
+    --subtitle-bg-color: #EBD9B4;
+    --green: #9DBC98;
+    --light: #F9EFDB;
+    
+  }
+
+h1 {
+    color: var(--title-color);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* p {
+    color:rgb(82, 82, 82);
+    background-color: rgb(235, 235, 235);
+} */
+ul {
+    display: flex;
+    gap: 8px;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* selector de clase */
+.fondo {
+    background-color: var(--light);
+}
+
+/* selector de id */
+#texto {
+    color: darkslategray;
+}
