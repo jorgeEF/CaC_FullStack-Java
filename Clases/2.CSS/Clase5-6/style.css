@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
 :root {
     --title-color: #638889;
     --subtitle-bg-color: #EBD9B4;
@@ -8,7 +10,7 @@
 
 h1 {
     color: var(--title-color);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Truculenta", sans-serif;
 }
 /* p {
     color:rgb(82, 82, 82);
