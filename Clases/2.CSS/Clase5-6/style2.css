@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    /* width: auto;
+    height: 15px; */
+
+    border: 3px solid orange;
+}
+
+header {
+    width: auto;
+    height: auto;
+    min-width: 600px;   
+
+    text-align: center;
+
+    border: 5px solid red;
+    margin: 20px;
+    padding: 20px;
+
+    margin-bottom: 15px;
+    
+}
+
+nav {
+    border: 3px solid blue;    
+}
+
+nav ul li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+main {
+    border: 5px solid green;
+    padding: 15px;
+}
