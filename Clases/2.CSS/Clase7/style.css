@@ -38,7 +38,7 @@ body {
 }
 
 .fixed {
-    position: fixed;
+    /*position: fixed; */
     /* bottom: 5%; */
     /* right: 10px; */
     /* z-index: 2; */
@@ -46,27 +46,6 @@ body {
 }
 
 .sticky {
-    position: sticky;
+    /* position: sticky;*/ 
     /* top: 50%; */
-}
-
-/* Flexbox */
-.flex-container {
-    border: 1px solid black;
-    background: #ccc;
-    padding: 20px;
-    height: 400px;
-    width: 700px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* flex-flow: row wrap; */
-    gap: 5px;
-}
-
-.caja {
-    width: 100px;
-    height: 100px;
-    background-color: burlywood;
 }
