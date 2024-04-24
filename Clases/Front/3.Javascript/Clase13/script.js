@@ -28,7 +28,8 @@ console.log(`El incremento de ${num1} es: ${++num1}`); // 4
 console.log(`El decremento de ${num1} es: ${--num1}`) // 3
 
 
-
+// utilitarios
+console.log("Tipo de variable de num1: ", typeof num1)
 
 
 
