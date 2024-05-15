@@ -18,5 +18,18 @@ document.addEventListener('DOMContentLoaded', () => {
         errorText.innerText = mensaje;
     }
 
-    //mostrarError(input,mensaje);
+    mostrarError(input,mensaje);
+
+    // funciona eliminar mensaje error
+    const eliminarError = input => {
+        const divPadre = input.parentNode;
+        // eliminar clase de error del elemento padre
+        divPadre.classList.remove('error');
+        // encuentra el elemento error-text
+        const errorText = divPadre.querySelector('.error-text')
+        // quitamos el mensaje de error
+        errorText.innerText = '';
+    }
+
+    //eliminarError(input)
 })
