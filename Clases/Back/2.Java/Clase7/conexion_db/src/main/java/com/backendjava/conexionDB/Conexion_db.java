@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.backendjava.crud;
+package com.backendjava.conexionDB;
 
 import conexion.ConexionDB;
 import java.sql.*;
@@ -28,10 +28,10 @@ public class Conexion_db {
             // Insertar un registro
             try {
                 // consulta con parametros representados por ?
-                String SQL = "insert into miTabla (nombre,email) values(?,?)";
+                String ConsultaSQL = "insert into miTabla (nombre,email) values(?,?)";
 
                 // preparar una consulta sql con parametros
-                PreparedStatement pstmt = conn.prepareStatement(SQL);
+                PreparedStatement pstmt = conn.prepareStatement(ConsultaSQL);
                 // instancia
                 pstmt.setString(1, "Juan");
                 pstmt.setString(2, "juan@mail.com");
