@@ -1,0 +1,19 @@
+CREATE TABLE registroUsuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    apellido VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(20) NOT NULL,
+    fechaNacimiento DATE NOT NULL,
+    pais varchar(20) NOT NULL
+);
+
+INSERT INTO registroUsuarios (nombre, apellido, email, password, fechaNacimiento, pais)
+VALUES
+('Juan', 'Pérez', 'juan.perez@example.com', 'pass1', '1985-05-15', 'Argentina'),
+('María', 'Gómez', 'maria.gomez@example.com', 'pass2', '1990-08-20', 'Bolivia'),
+('Carlos', 'Silva', 'carlos.silva@example.com', 'pass3', '1982-12-01', 'Brasil'),
+('Ana', 'Fernández', 'ana.fernandez@example.com', 'pass4', '1995-07-07', 'Chile'),
+('Luis', 'Martínez', 'luis.martinez@example.com', 'pass5', '1978-03-30', 'Colombia');
+
+select * from registroUsuarios;
